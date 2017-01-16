@@ -1,0 +1,33 @@
+nav {
+	background-color: grey;
+
+}
+
+nav {
+	list-style-type: none;
+	height: 50px;
+}
+
+nav li {
+	float: left;
+	margin: 10px;
+}
+
+nav ul li a {
+	text-decoration: none;
+
+}
+
+nav ul li a:hover {
+	color: blue;
+	background: orange;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+nav ul li a:active {
+	color: red;
+	padding: 0 5px;
+	margin: 0 5px;
+	font-size: 20px;
+}
