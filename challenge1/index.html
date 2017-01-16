@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1 - Range & Number Input</title>
+</head>
+<body>
+
+<script type="text/javascript" src="script.js"></script>
+
+	<h2>Range & Number Input</h2>
+
+	<p>Instructions: Create a form that has a range input, and a number input, both with the same values for min, max, and default. When the user changes the value on the range input, the value of the number input should match. The opposite should be true. The values of the two inputs should always be synchronized.</p>
+
+	<p>Slider has a range of 0 - 100. Default: 50.</p>
+
+	<input type="range" value="50" min="0" max="100" step="10" id="slider" onchange="rangeBarToForm(this.value)">
+
+	<p>Slider Value</p>
+
+	<!-- Simple in-line JS, set the value of this forum (slider_value) to the value of slider above -->
+	<input type="text" id="slider_value" oninput="slider.value = slider_value.value">
+
+</body>
+</html>
