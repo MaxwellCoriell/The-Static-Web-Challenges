@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>1 - Range & Number Input</title>
 </head>
 <body>
-
-<script type="text/javascript" src="script.js"></script>
 
 	<h2>Range & Number Input</h2>
 
@@ -13,12 +14,15 @@
 
 	<p>Slider has a range of 0 - 100. Default: 50.</p>
 
-	<input type="range" value="50" min="0" max="100" step="10" id="slider" onchange="rangeBarToForm(this.value)">
+	<input type="range" value="50" min="0" max="100" step="5" id="slider" onchange="rangeBarToForm(this.value)">
 
 	<p>Slider Value</p>
 
 	<!-- Simple in-line JS, set the value of this forum (slider_value) to the value of slider above -->
 	<input type="text" id="slider_value" oninput="slider.value = slider_value.value">
+
+
+<script type="text/javascript" src="script.js"></script>
 
 </body>
 </html>

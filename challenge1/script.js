@@ -4,3 +4,4 @@
 function rangeBarToForm (slideAmount) {
 	document.getElementById("slider_value").value = slideAmount;
 }
+

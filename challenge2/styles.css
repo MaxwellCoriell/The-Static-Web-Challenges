@@ -1,5 +1,5 @@
 nav {
-	background-color: grey;
+	background-color: lightgrey;
 
 }
 
@@ -19,14 +19,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	color: blue;
-	background: orange;
+	color: yellow;
+	background: blue;
 	text-decoration: underline;
 	font-weight: bold;
 }
 
 nav ul li a:active {
-	color: red;
+	color: gold;
 	padding: 0 5px;
 	margin: 0 5px;
 	font-size: 20px;
